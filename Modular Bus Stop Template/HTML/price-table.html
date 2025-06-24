@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccin- och Hälsobussen - Prislista</title>
+    <style>
+        /* Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        :root {
+            --clr-heading: #012363;
+            --clr-body: #003366;
+            --clr-accent: #4AA6C9;
+            --clr-bg-alt: #eef5ff;
+            --clr-border: #e1e7f0;
+            --clr-white: #ffffff;
+            --clr-table-header-bg: linear-gradient(150deg, #5a9fe0 0%, #518ece 50%, #477eba 100%);
+            --border-radius-sm: 0.3333rem;
+            --border-radius-md: 0.4444rem;
+            --font-family-base: 'filsonpro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        
+        html {
+            font-size: 18px;
+        }
+        
+        body {
+            font-family: var(--font-family-base);
+            color: var(--clr-body);
+            line-height: 1.5;
+        }
+        
+        /* Visually Hidden Helper */
+        .visually-hidden {
+            position: absolute !important;
+            width: 1px !important;
+            height: 1px !important;
+            padding: 0 !important;
+            margin: -1px !important;
+            overflow: hidden !important;
+            clip: rect(0, 0, 0, 0) !important;
+            white-space: nowrap !important;
+            border: 0 !important;
+        }
+        
+        /* Price Box Container */
+        .price-box {
+            max-width: 24rem;
+            min-width: 24rem;
+            width: 100%;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        .price-heading {
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: var(--clr-heading);
+            margin-block: 1rem 1rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        /* Toggle Labels */
+        .price-toggle-labels {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            width: 98%;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .price-toggle-label {
+            flex: 1 1 0;
+            min-width: 5.55rem;
+            text-align: left;
+            padding-block: 0.4rem;
+            padding-inline: 0.6rem;
+            font-size: 0.9rem;
+            background-color: var(--clr-white);
+            color: var(--clr-body);
+            border: 1px solid var(--clr-border);
+            border-radius: var(--border-radius-sm);
+            transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+            user-select: none;
+            font-weight: 400;
+        }
+        
+        .price-toggle-label[for="v-ord"] { min-width: 5.8rem; }
+        .price-toggle-label[for="v-pen"] { min-width: 9.17rem; }
+        .price-toggle-label[for="v-stu"] { min-width: 7.9rem; }
+        
+        .price-toggle-label:hover {
+            border-color: var(--clr-accent);
+            background-color: var(--clr-bg-alt);
+        }
+        
+        /* Active Toggle State */
+        #v-ord:checked ~ .price-toggle-labels label[for="v-ord"],
+        #v-pen:checked ~ .price-toggle-labels label[for="v-pen"],
+        #v-stu:checked ~ .price-toggle-labels label[for="v-stu"] {
+            background-color: var(--clr-heading);
+            color: var(--clr-white);
+            border-color: var(--clr-heading);
+            font-weight: 600;
+        }
+        
+        /* Focus States */
+        .price-toggle-input:focus-visible ~ .price-toggle-labels label[for*="v-"] {
+            outline: 0.111rem solid var(--clr-accent);
+            outline-offset: 0.111rem;
+            box-shadow: 0 0 0 0.1667rem var(--clr-accent);
+        }
+        
+        /* Price Table */
+        .price-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1rem;
+            border: 0.00556rem solid var(--clr-border);
+            border-radius: var(--border-radius-md);
+            overflow: hidden;
+            table-layout: fixed;
+            min-width: 20.8rem;
+            max-width: 22.8rem;
+            margin-top: 1rem;
+        }
+        
+        .price-table thead th:first-child,
+        .price-table tbody td:first-child {
+            width: 35%;
+        }
+        
+        .price-table thead th.price-col,
+        .price-table tbody td.price-val {
+            width: 65%;
+        }
+        
+        .price-table thead th {
+            background: var(--clr-table-header-bg);
+            color: var(--clr-heading);
+            text-align: left;
+            border-bottom: 1.5px solid var(--clr-heading);
+            font-size: 1.25rem;
+            font-weight: 500;
+            padding-block: 0.85rem;
+            padding-inline: 0.5rem;
+        }
+        
+        .price-table th.price-col {
+            text-align: left;
+        }
+        
+        th.price-col.ord {
+            white-space: normal;
+            word-break: keep-all;
+        }
+        
+        .price-table tbody tr:nth-child(odd) { 
+            background-color: var(--clr-white); 
+        }
+        
+        .price-table tbody tr:nth-child(even) { 
+            background-color: var(--clr-bg-alt); 
+        }
+        
+        .price-table td {
+            color: #000;
+            font-size: 1.2rem;
+            border-bottom: 1px solid var(--clr-border);
+            padding-block: 0.4rem;
+            padding-inline: 0.5rem;
+        }
+        
+        .price-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .price-table td.price-val {
+            text-align: left;
+            white-space: nowrap;
+        }
+        
+        /* Toggle Visibility Logic */
+        .price-table .price-col.pen,
+        .price-table .price-col.stu,
+        .price-table .price-val.pen,
+        .price-table .price-val.stu {
+            display: none;
+        }
+        
+        .price-table .price-col.ord,
+        .price-table .price-val.ord {
+            display: table-cell;
+        }
+        
+        #v-pen:checked ~ .price-table .price-col.pen,
+        #v-pen:checked ~ .price-table .price-val.pen {
+            display: table-cell;
+        }
+        
+        #v-pen:checked ~ .price-table .price-col.ord,
+        #v-pen:checked ~ .price-table .price-val.ord,
+        #v-pen:checked ~ .price-table .price-col.stu,
+        #v-pen:checked ~ .price-table .price-val.stu {
+            display: none;
+        }
+        
+        #v-stu:checked ~ .price-table .price-col.stu,
+        #v-stu:checked ~ .price-table .price-val.stu {
+            display: table-cell;
+        }
+        
+        #v-stu:checked ~ .price-table .price-col.ord,
+        #v-stu:checked ~ .price-table .price-val.ord,
+        #v-stu:checked ~ .price-table .price-col.pen,
+        #v-stu:checked ~ .price-table .price-val.pen {
+            display: none;
+        }
+        
+        /* Responsive */
+        @media (max-width: 480px) {
+            .price-box {
+                min-width: auto;
+                padding: 0.5rem;
+            }
+            
+            .price-table thead th,
+            .price-table tbody td {
+                padding: 0.4rem 0.3rem;
+                font-size: 0.9em;
+            }
+            
+            .price-toggle-label {
+                font-size: 0.8rem;
+                min-width: auto;
+                padding-inline: 0.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Price Table Component -->
+    <section class="price-box compact sidebar-content">
+        <h3 class="price-heading">Prislista</h3>
+        
+        <!-- Toggle Radio Buttons -->
+        <input id="v-ord" class="price-toggle-input visually-hidden" checked="checked" name="price-view" type="radio" />
+        <input id="v-pen" class="price-toggle-input visually-hidden" name="price-view" type="radio" />
+        <input id="v-stu" class="price-toggle-input visually-hidden" name="price-view" type="radio" />
+        
+        <!-- Toggle Labels -->
+        <div class="price-toggle-labels">
+            <label class="price-toggle-label" for="v-ord">Ordinarie</label>
+            <label class="price-toggle-label" for="v-pen">Pensionär – 10&thinsp;%</label>
+            <label class="price-toggle-label" for="v-stu">Student – 15&thinsp;%</label>
+        </div>
+        
+        <!-- Price Table -->
+        <table class="price-table">
+            <thead>
+                <tr>
+                    <th class="price-vaccine">Vaccination</th>
+                    <th class="price-col ord">Pris/dos<br />Ordinarie</th>
+                    <th class="price-col pen">Pris/dos<br />Pensionär</th>
+                    <th class="price-col stu">Pris/dos<br />Student</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="price-vaccine">Bältros</td>
+                    <td class="price-val ord">2 550 kr</td>
+                    <td class="price-val pen">2 295 kr</td>
+                    <td class="price-val stu">2 168 kr</td>
+                </tr>
+                <tr>
+                    <td class="price-vaccine">Hep A vuxen</td>
+                    <td class="price-val ord">550 kr</td>
+                    <td class="price-val pen">495 kr</td>
+                    <td class="price-val stu">468 kr</td>
+                </tr>
+                <tr>
+                    <td class="price-vaccine">Hep A barn</td>
+                    <td class="price-val ord">450 kr</td>
+                    <td class="price-val pen">405 kr</td>
+                    <td class="price-val stu">382 kr</td>
+                </tr>
+                <tr>
+                    <td class="price-vaccine">Hep B vuxen</td>
+                    <td class="price-val ord">500 kr</td>
+                    <td class="price-val pen">450 kr</td>
+                    <td class="price-val stu">425 kr</td>
+                </tr>
+                <tr>
+                    <td class="price-vaccine">Hep B barn</td>
+                    <td class="price-val ord">430 kr</td>
+                    <td class="price-val pen">387 kr</td>
+                    <td class="price-val stu">366 kr</td>
+                </tr>
+                <tr>
+                    <td class="price-vaccine">Hep AB vuxen</td>
+                    <td class="price-val ord">700 kr</td>
+                    <td class="price-val pen">630 kr</td>
+                    <td class="price-val stu">595 kr</td>
+                </tr>
+                <tr>
+                    <td class="price-vaccine">Hep AB barn</td>
+                    <td class="price-val ord">540 kr</td>
+                    <td class="price-val pen">486 kr</td>
+                    <td class="price-val stu">459 kr</td>
+                </tr>
+                <tr>
+                    <td class="price-vaccine">HPV&nbsp;</td>
+                    <td class="price-val ord">2 340 kr</td>
+                    <td class="price-val pen">2 106 kr</td>
+                    <td class="price-val stu">1 989 kr</td>
+                </tr>
+                <tr>
+                    <td class="price-vaccine">Influensa (vid säsong)</td>
+                    <td class="price-val ord">420 kr</td>
+                    <td class="price-val pen">378 kr</td>
+                    <td class="price-val stu">357 kr</td>
+                </tr>
+                <tr>
+                    <td class="price-vaccine">Grundskydd</td>
+                    <td class="price-val ord">520 kr</td>
+                    <td class="price-val pen">468 kr</td>
+                    <td class="price-val stu">442 kr</td>
+                </tr>
+                <tr>
+                    <td class="price-vaccine">TBE vuxen</td>
+                    <td class="price-val ord">460 kr</td>
+                    <td class="price-val pen">414 kr</td>
+                    <td class="price-val stu">391 kr</td>
+                </tr>
+                <tr>
+                    <td class="price-vaccine">TBE barn</td>
+                    <td class="price-val ord">410 kr</td>
+                    <td class="price-val pen">369 kr</td>
+                    <td class="price-val stu">348 kr</td>
+                </tr>
+                <tr>
+                    <td class="price-vaccine">Vattkoppor</td>
+                    <td class="price-val ord">860 kr</td>
+                    <td class="price-val pen">774 kr</td>
+                    <td class="price-val stu">731 kr</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>

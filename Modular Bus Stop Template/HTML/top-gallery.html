@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccin- och Hälsobussen - Galleri</title>
+    <style>
+        /* Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        :root {
+            --clr-heading: #012363;
+            --clr-body: #003366;
+            --clr-accent: #4AA6C9;
+            --clr-bg-alt: #eef5ff;
+            --border-radius-lg: 1rem;
+            --shadow-lg: 0 0.8rem 2rem rgba(0, 0, 0, 0.12);
+            --glow-color: rgba(74, 166, 201, 0.4);
+            --font-family-base: 'filsonpro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        
+        html {
+            font-size: 18px;
+        }
+        
+        body {
+            font-family: var(--font-family-base);
+            color: var(--clr-body);
+            line-height: 1.5;
+        }
+        
+        /* Gallery Section */
+        .vaccination-info {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        
+        .section-title {
+            font-size: 2rem;
+            font-weight: 500;
+            color: var(--clr-heading);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        /* Gallery Container */
+        .bus-gallery-row {
+            display: flex;
+            gap: 2rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: stretch;
+        }
+        
+        .bus-gallery-col {
+            flex: 1 1 300px;
+            max-width: 400px;
+            min-width: 280px;
+        }
+        
+        /* Image Wrapper with Modern Effects */
+        .img-wrapper {
+            position: relative;
+            overflow: hidden;
+            border-radius: var(--border-radius-lg);
+            background: #f0f9ff;
+            box-shadow: 
+                0 4px 20px rgba(0, 0, 0, 0.08),
+                0 8px 32px rgba(74, 166, 201, 0.15),
+                0 0 20px 5px rgba(74, 166, 201, 0.1);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            transform: translateZ(0); /* Enable hardware acceleration */
+            -webkit-transform: translateZ(0);
+            display: block;
+            text-decoration: none;
+        }
+        
+        .img-wrapper::before {
+            content: '';
+            position: absolute;
+            inset: -2px;
+            background: linear-gradient(45deg, transparent, var(--clr-accent), transparent);
+            border-radius: var(--border-radius-lg);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: -1;
+        }
+        
+        /* Hover Effects */
+        .img-wrapper:hover {
+            transform: translateY(-8px) scale(1.02);
+            -webkit-transform: translateY(-8px) scale(1.02);
+            box-shadow: 
+                0 8px 32px rgba(0, 0, 0, 0.12),
+                0 16px 48px rgba(74, 166, 201, 0.25),
+                0 0 40px 15px rgba(74, 166, 201, 0.3);
+        }
+        
+        .img-wrapper:hover::before {
+            opacity: 0.3;
+        }
+        
+        /* Images */
+        .bus-img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+            aspect-ratio: 4/3;
+        }
+        
+        /* Fade-in Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 0.6s ease forwards;
+        }
+        
+        .bus-gallery-col:nth-child(1) .fade-in { animation-delay: 0.1s; }
+        .bus-gallery-col:nth-child(2) .fade-in { animation-delay: 0.2s; }
+        
+        /* Card Body */
+        .card-body {
+            padding: 1rem 0 0 0;
+        }
+        
+        .bus-title {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: var(--clr-heading);
+            margin: 0;
+        }
+        
+        /* Browser Compatibility */
+        @supports not (inset: 0) {
+            .img-wrapper::before {
+                top: -2px;
+                right: -2px;
+                bottom: -2px;
+                left: -2px;
+            }
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .bus-gallery-row {
+                gap: 1.5rem;
+            }
+            
+            .bus-gallery-col {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+        }
+        
+        /* Reduced Motion */
+        @media (prefers-reduced-motion: reduce) {
+            .img-wrapper,
+            .fade-in {
+                transition: none;
+                animation: none;
+            }
+            
+            .fade-in {
+                opacity: 1;
+            }
+            
+            .img-wrapper:hover {
+                transform: none;
+                -webkit-transform: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Gallery Section -->
+    <section class="vaccination-info">
+        <h2 class="section-title">Enkelt och tryggt med Vaccin- och Hälsobussen</h2>
+        
+        <div class="bus-gallery-row">
+            <div class="bus-gallery-col">
+                <a href="../IMG SRC/1.webp" class="img-wrapper" aria-label="Öppna bild av vaccinationsbussen utsida i fullstorlek">
+                    <img class="bus-img fade-in" 
+                         src="../IMG SRC/1.webp" 
+                         alt="Vaccinationsbussen – utsida från sidan. En specialbyggd buss med tydlig skyltning för Vaccin- och Hälsobussen." />
+                </a>
+                <div class="card-body">
+                    <p class="card-text bus-title text-start">Bussens utsida – från sidan</p>
+                </div>
+            </div>
+            
+            <div class="bus-gallery-col">
+                <a href="../IMG SRC/2.webp" class="img-wrapper" aria-label="Öppna bild av vaccinationsbussen insida i fullstorlek">
+                    <img class="bus-img fade-in" 
+                         src="../IMG SRC/2.webp" 
+                         alt="Vaccinationsbussen – sittdel. Bekväma sittplatser där patienter kan vänta och vila efter vaccination." />
+                </a>
+                <div class="card-body">
+                    <p class="card-text bus-title text-center">Bussens insida – sittdel</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <script>
+        // Intersection Observer for fade-in effect
+        document.addEventListener('DOMContentLoaded', function() {
+            const images = document.querySelectorAll('.fade-in');
+            
+            if ('IntersectionObserver' in window) {
+                const imageObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.style.opacity = '1';
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, {
+                    rootMargin: '0px 0px -50px 0px'
+                });
+                
+                images.forEach(img => imageObserver.observe(img));
+            } else {
+                // Fallback for older browsers
+                images.forEach(img => {
+                    img.style.opacity = '1';
+                });
+            }
+        });
+    </script>
+</body>
+</html>

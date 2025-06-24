@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccin- och Hälsobussen - Huvudinnehåll</title>
+    <style>
+        /* Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        :root {
+            --clr-heading: #012363;
+            --clr-body: #003366;
+            --clr-accent: #4AA6C9;
+            --clr-bg-alt: #eef5ff;
+            --clr-border: #e1e7f0;
+            --clr-table-header-bg-alt: linear-gradient(to left, #b4bfff 40%, #cdd8ff 100%);
+            --border-radius-md: 0.4444rem;
+            --font-family-base: 'filsonpro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        
+        html {
+            font-size: 18px;
+        }
+        
+        body {
+            font-family: var(--font-family-base);
+            color: var(--clr-body);
+            line-height: 1.5;
+        }
+        
+        /* Main Content Container */
+        .primary-content {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        
+        /* Typography */
+        .page-title {
+            font-size: 2.2rem;
+            font-weight: 600;
+            color: var(--clr-heading);
+            margin-block: 0 2rem;
+            text-align: center;
+        }
+        
+        .ingress {
+            font-size: 1.1111rem; /* 20px */
+            font-weight: 400;
+            color: var(--clr-body);
+            margin-block: 0 1rem;
+            line-height: 1.6;
+        }
+        
+        .subtitle {
+            font-size: 1.29rem;
+            font-weight: 500;
+            color: var(--clr-heading);
+            margin-block: 1.5rem 0.5rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 500;
+            color: var(--clr-heading);
+            margin-block: 0 1rem;
+        }
+        
+        .vaccine-heading {
+            font-size: 1.43rem;
+            font-weight: 600;
+            color: var(--clr-heading);
+            margin-block: 1.43rem 0.5rem;
+        }
+        
+        h2.subtitle {
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+        
+        h3.subtitle {
+            font-size: 1.5rem;
+        }
+        
+        h4.section-title {
+            font-size: 1.3rem;
+        }
+        
+        h5.section-title {
+            font-size: 1.2rem;
+        }
+        
+        p {
+            font-size: 1.07rem;
+            line-height: 1.55;
+            color: var(--clr-body);
+            margin-block: 0 0.75rem;
+        }
+        
+        /* Local Pride Section */
+        .local-pride-section {
+            background-color: var(--clr-bg-alt);
+            border-radius: var(--border-radius-md);
+            padding: 2rem;
+            margin-block: 2rem;
+        }
+        
+        .local-pride-section h4 {
+            white-space: normal;
+            margin-bottom: 1rem;
+        }
+        
+        .lead {
+            font-size: 1.125rem;
+            line-height: 1.7;
+        }
+        
+        /* Location Schedule Table */
+        .location-schedule {
+            width: 100%;
+            max-width: 700px;
+            border-collapse: collapse;
+            margin-block: 0.75rem 1.5rem;
+            font-size: 1rem;
+            border: 1px solid var(--clr-border);
+            border-radius: var(--border-radius-md);
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        
+        .location-schedule th {
+            background: var(--clr-table-header-bg-alt);
+            color: #012363;
+            padding-block: 0.85rem;
+            padding-inline: 0.75rem;
+            text-align: center;
+            font-weight: 500;
+            border-bottom: 1.5px solid var(--clr-heading);
+            font-size: 1.25rem;
+        }
+        
+        .location-schedule td {
+            padding-block: 0.5rem;
+            padding-inline: 0.75rem;
+            text-align: center;
+            color: #000;
+            border-bottom: 1px solid var(--clr-border);
+        }
+        
+        .location-schedule tbody tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .location-schedule tbody tr:nth-child(odd) td {
+            background-color: var(--clr-bg-alt);
+        }
+        
+        .location-schedule tbody tr:nth-child(even) td {
+            background-color: #fff;
+        }
+        
+        /* Vaccination Info Section */
+        .vaccination-info {
+            margin-top: 2rem;
+        }
+        
+        /* Inline Images */
+        .inline-image-wrapper {
+            margin: 2rem 0;
+            text-align: center;
+        }
+        
+        .inline-image-wrapper a {
+            display: inline-block;
+            text-decoration: none;
+            border-radius: var(--border-radius-md);
+            overflow: hidden;
+            box-shadow: 
+                0 4px 20px rgba(0, 0, 0, 0.08),
+                0 8px 32px rgba(74, 166, 201, 0.15),
+                0 0 20px 5px rgba(74, 166, 201, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .inline-image-wrapper a:hover {
+            transform: translateY(-4px);
+            box-shadow: 
+                0 8px 32px rgba(0, 0, 0, 0.12),
+                0 16px 48px rgba(74, 166, 201, 0.25),
+                0 0 40px 15px rgba(74, 166, 201, 0.3);
+        }
+        
+        .inline-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .image-caption {
+            font-size: 0.9rem;
+            color: var(--clr-body);
+            font-style: italic;
+            margin-top: 0.5rem;
+            text-align: center;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .primary-content {
+                padding: 1rem;
+            }
+            
+            .location-schedule {
+                font-size: 0.9rem;
+            }
+            
+            .location-schedule th {
+                font-size: 1.1rem;
+                padding-block: 0.6rem;
+                padding-inline: 0.5rem;
+            }
+            
+            .subtitle {
+                white-space: normal;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Primary Content Section -->
+    <div class="primary-content">
+        <h1 class="page-title">Vaccin- och Hälsobussen i Bjärred</h1>
+        
+        <!-- Location Schedule Section (moved to top) -->
+        <section class="location-schedule-section">
+            <h3 class="subtitle">Hitta vår Vaccin- och Hälsobuss i Bjärred</h3>
+            <h5 class="section-title">Adress:</h5>
+            <p>Coop, Norra Västkustvägen, 237 37 Bjärred</p>
+            
+            <table class="location-schedule">
+                <thead>
+                    <tr>
+                        <th>Datum</th>
+                        <th>Dag</th>
+                        <th>Tid</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>24 feb 2025</td>
+                        <td>Måndag</td>
+                        <td>14:30–18:30</td>
+                    </tr>
+                    <tr>
+                        <td>17 mar 2025</td>
+                        <td>Måndag</td>
+                        <td>14:30–18:30</td>
+                    </tr>
+                    <tr>
+                        <td>28 apr 2025</td>
+                        <td>Måndag</td>
+                        <td>14:30–18:30</td>
+                    </tr>
+                    <tr>
+                        <td>19 maj 2025</td>
+                        <td>Måndag</td>
+                        <td>14:30–18:30</td>
+                    </tr>
+                    <tr>
+                        <td>30 maj 2025</td>
+                        <td>Fredag</td>
+                        <td>14:30–18:30</td>
+                    </tr>
+                    <tr>
+                        <td>30 jun 2025</td>
+                        <td>Måndag</td>
+                        <td>14:30–18:30</td>
+                    </tr>
+                    <tr>
+                        <td>21 jul 2025</td>
+                        <td>Måndag</td>
+                        <td>14:30–18:30</td>
+                    </tr>
+                    <tr>
+                        <td>11 aug 2025</td>
+                        <td>Måndag</td>
+                        <td>14:30–18:30</td>
+                    </tr>
+                    <tr>
+                        <td>01 sep 2025</td>
+                        <td>Måndag</td>
+                        <td>14:30–18:30</td>
+                    </tr>
+                    <tr>
+                        <td>22 sep 2025</td>
+                        <td>Måndag</td>
+                        <td>14:30–18:30</td>
+                    </tr>
+                    <tr>
+                        <td>13 okt 2025</td>
+                        <td>Måndag</td>
+                        <td>14:30–18:30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <p class="ingress">Behöver du vaccin i Bjärred? Vaccin- och Hälsobussen gör det smidigt att vaccinera sig nära hemmet, utan att du behöver ta dig till en klinik. Vi besöker Bjärred regelbundet och erbjuder ett brett urval av vacciner för både barn och vuxna. Oavsett om du ska uppdatera ditt grundskydd, skydda dig mot Bältros, vattkoppor eller skydda dig mot TBE så finns vi här för dig.</p>
+        <p class="ingress">Hos oss erhåller alla pensionärer alltid 10% rabatt och studenter som kan visa upp ett Mecenat-/Alumnikort alltid 15% rabatt på alla vaccin.</p>
+        
+        <!-- Image 1: Bus exterior directly after ingress -->
+        <div class="inline-image-wrapper">
+            <a href="../IMG SRC/1.webp" aria-label="Öppna bild av vaccinationsbussen i fullstorlek">
+                <img class="inline-image" 
+                     src="../IMG SRC/1.webp" 
+                     alt="Vaccinationsbussen parkerad utanför Coop i Bjärred. En modern specialbyggd buss med tydlig skyltning." />
+            </a>
+            <p class="image-caption">Vaccin- och Hälsobussen vid Coop Bjärred</p>
+        </div>
+
+        <!-- Lokal stolthet & uppmaning – Bjärred -->
+        <section class="local-pride-section">
+            <h4 class="section-title">Tillsammans för ett friskt Bjärred</h4>
+            <p class="lead">För ett friskt och öppet Bjärred. Ta ditt ansvar och vaccinera dig när bussen smidigt och enkelt kommer till orten. Det är ett klokt val för att vi alla ska kunna fortsätta njuta av Långa bryggan, morgondoppen och gemenskapen. Vetenskapligt bevisat skydd, bekvämt och nära dig vid Bjärreds centrum. Låt oss tillsammans säkra vår vackra kustpärla.</p>
+        </section>
+
+
+        <h2 class="subtitle">Varför välja oss?</h2>
+        <p>Upplev en unik, vårdanpassad vaccinationsklinik på hjul i vår specialbyggda buss – komplett med brits, handtvättstation och fullgod hygien enligt alla arbetsmiljökrav. I en trygg, familjär och professionell atmosfär guidar våra erfarna sjuksköterskor och läkare dig till rätt vaccin. Vi följer alltid Folkhälsomyndighetens rekommendationer och med drop-in och korta väntetider slipper du stress och kan fokusera helt på din hälsa. Alltid nära hemmet, alltid med omsorg och kvalitet i fokus. Hos oss får du ett komplett vaccinationsstöd i en avslappnad miljö där ditt välbefinnande är i centrum.</p>
+
+        <p>I Bjärred – där Långa bryggan sträcker sig ut i Öresund och morgondoppen vid hamnen är en självklarhet – vill du inte missa sommarkvällarna eller kyliga dopp i gryningen, och med rätt vaccination undviker du oväntade sjukdagar.</p>
+        <p>Pensionärer får 10 % rabatt på alla vaccinationer och studenter med Mecenat-/Alumnikort 15 %. Kavla upp ärmen för din nästa vaccination – vi finns nära hemmet och alltid med omsorg i fokus.</p>
+        
+        <!-- Image 2: Bus interior positioned further down -->
+        <div class="inline-image-wrapper">
+            <a href="../IMG SRC/2.webp" aria-label="Öppna bild av bussens interiör i fullstorlek">
+                <img class="inline-image" 
+                     src="../IMG SRC/2.webp" 
+                     alt="Insidan av Vaccin- och Hälsobussen. Rena och moderna faciliteter med bekväma sittplatser och professionell utrustning." />
+            </a>
+            <p class="image-caption">Trygg och professionell miljö inne i bussen</p>
+        </div>
+
+        <section class="vaccination-info">
+            <h2 class="subtitle">Tillgängliga vacciner i Bjärred</h2>
+            
+            <h4 class="vaccine-heading">TBE-vaccin</h4>
+            <p>Skydda dig mot TBE – en fästingburen hjärninflammation som blir allt vanligare i Sverige. Vi erbjuder TBE-vaccination i Bjärred för både barn och vuxna. Kom ihåg att flera doser krävs för ett fullgott skydd.</p>
+            
+            <h4 class="vaccine-heading">Grundskyddsvaccin (Stelkramp/Difteri/Kikhosta)</h4>
+            <p>Dags att uppdatera grundskyddet? I vår buss i Bjärred kan du enkelt vaccinera dig mot stelkramp, difteri och kikhosta. Folkhälsomyndigheten rekommenderar alla att fylla på sitt grundskydd då vi har stelkramp i jorden i Sverige.</p>
+            
+            <h4 class="vaccine-heading">Bältros</h4>
+            <p>Vårt bältrosvaccin skyddar mot Bältros (herpes zoster), en smärtsam återaktivering av vattkoppsvirus som drabbar ungefär en av tre vuxna. Vaccinet rekommenderas framför allt för vuxna över 50 år och ges i två doser med 2–6 månaders intervall. Studier visar över 90 % skyddseffekt mot svår bältros och postherpetisk neuralgi. Vanliga biverkningar är mild rodnad, svullnad och ömhet vid injektionsstället, eventuellt feber och huvudvärk.</p>
+            
+            <h4 class="vaccine-heading">Vattkoppsvaccin</h4>
+            <p>Vattkoppsvaccinet (varicellavaccin) ger ett effektivt skydd mot vattkoppor och rekommenderas särskilt för ovaccinerade barn, ungdomar och vuxna som aldrig haft sjukdomen. Vaccinationen ges vanligtvis i två doser för att uppnå ett starkt och långvarigt immunförsvar. Nu erbjuder Vaccin- och hälsobussen vattkoppsvaccination i Bjärred, vilket gör det enkelt och smidigt att få sitt skydd nära hemmet. Ta chansen att skydda dig och din familj mot vattkoppor utan att behöva göra en lång resa.</p>
+            
+            <h4 class="vaccine-heading">Hepatitvaccin</h4>
+            <p>Vaccin- och Hälsobussen i Bjärred erbjuder hepatit A-vaccin (två doser med några månaders mellanrum), hepatit B-vaccin (tre doser över sex månader) samt ett kombinerat A- och B-vaccin (tre doser inom ett år) – allt på ett och samma ställe för ett heltäckande skydd mot båda virusen.</p>
+            
+            <h4 class="vaccine-heading">HPV-vaccin</h4>
+            <p>Vi erbjuder HPV-vaccination (Gardasil 9) – rekommenderat för flickor och pojkar från 9 år för att förebygga livmoderhalscancer, kondylom och andra HPV-relaterade infektioner. Doserna ges enligt nationellt barnvaccinationsprogram (2 doser vid start före 15 års ålder). Alla vuxna ska ta 3 doser, även om Gardasil har tagits tidigare.</p>
+            
+            <h4 class="vaccine-heading">Influensavaccin</h4>
+            <p>Under influensasäsongen erbjuder vi säsongsanpassade influensavaccin i Bjärred. Rekommenderas särskilt för äldre, gravida och personer i riskgrupp, men även friska vuxna kan ha nytta av att vaccinera sig. Förutom att skydda sig själv, bidrar vaccinationen även till att minska smittspridningen i samhället, särskilt till dem som är mest utsatta.</p>
+            
+            <h4 class="vaccine-heading">Hälsokontroll</h4>
+            <p>Hos oss kan du alltid genomföra en enklare hälsokontroll där du får reda på blodtrycket, järnvärdet och blodsockret. Det tar bara några minuter och du får svaret direkt. Välkommen in till oss!</p>
+        </section>
+    </div>
+</body>
+</html>

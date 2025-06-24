@@ -1,0 +1,22 @@
+{
+  "minify": true,
+  "classPrefix": "navigation__left--menu, navigation__item--has-mega-menu, navigation__item-category, header-navigation-menu, visually-hidden, sr-only, fade-in, visible, vaccination-info, page__content-title, section-title, ingress, subtitle, vaccine-heading, vaccine-bus-image, location-schedule, faq, sidebar-content, faq-item, faq-title, faq-content, faq-section, price-box, price-heading, price-toggle, price-toggle-labels, price-toggle-label, price-toggle-input, price-table, price-col, price-val, ord, pen, stu, textblock, alignment--left, textblock__body, col-md-8, container-fluid, header, float-right, pull-right, navigation, navigation__logo, flex-start, navigation__left, mega-menu__wrapper, link, footer, row, row1, row2, h4, h5, block, footer__link-nav, footer__links, col, footer__link, footer__links-toggle-button, hamburger-menu__line, open, map-embed-container, is-loaded, fa, fab, fad, fal, far, fas, fa-external-link, fa-chevron-down, fa-chevron-up, map-embed-frame, card-body, bus-title, text-start, text-center, text-end, bus-gallery-row, bus-gallery-col, img-wrapper, bus-img",
+  "options": [
+    "domPrefixes",
+    "prefixes",
+    "addTest",
+    "atRule",
+    "hasEvent",
+    "mq",
+    "prefixed",
+    "prefixedCSS",
+    "prefixedCSSValue",
+    "testAllProps",
+    "testProp",
+    "testStyles",
+    "html5printshiv",
+    "html5shiv",
+    "setClasses"
+  ],
+  "feature-detects": []
+}

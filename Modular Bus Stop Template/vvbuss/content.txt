@@ -1,0 +1,1541 @@
+Den här webbplatsen innehåller cookiesVi använder cookies för att ge dig en förbättrad upplevelse och för att viss nödvändig funktionalitet ska fungera på webbplatsen. Godkänn urval av cookiesRedigera cookiesGodkänn cookiesHantera dina inställningar för cookiesPå www.ptj.se används följande cookies:Godkänn cookiesAnpassa dina inställningarNödvändiga cookiesAlltid aktiv    Dessa behövs för att webbplatsen ska fungera och de kan inte stängas av. De används när du använder en funktion på webbplatsen som behöver ett svar, till exempel när du fyller i ett formulär eller lagrar nödvändiga inställningar. Du kan ställa in så att din webbläsare blockerar eller varnar dig om dessa kakor, men då fungerar inte vissa delar av webbplatsen.NamnBeskrivningDomänUtgårTS01abd254Sessionscookien som tillfälligt lagrar information gällande den kodade IP-adressen och porten till destinationsservern.www.ptj.seSession.ASPXANONYMOUSwww.ptj.se6 veckorai_userwww.ptj.se1 årai_sessionwww.ptj.se30minARRAffinitywww.ptj.seSessionEPi:StateMarkerCookie som används för att hålla koll på sessioner.www.ptj.seSessionTS01684556Sessionscookien som tillfälligt lagrar information gällande den kodade IP-adressen och porten till destinationsservern.www.ptj.seSession__RequestVerificationTokenAnvänds av Episerver säkerhetskomponenter. Skyddar användaren mot cross-site request forgery (XSRF). Används endast av CMS-gränssnittet. Raderas när webbläsaren stängs.www.ptj.seSessionTiPMixwww.ptj.se1 timmeARRAffinitySameSitewww.ptj.seSession.EPiForm_VisitorIdentifierIdentifierar formuläret som skickas till webbplatsen när en besökare skickar data till via ett Episerver-formulär. Lagrar en GUID som är besökaridentifieraren. www.ptj.se3 mån.EPiForm_BIDIdentifierar formuläret som skickas till webbplatsen när en besökare skickar data till via ett Episerver-formulär. Lagrar en GUID som är besökaridentifieraren. www.ptj.se3 månUserConsentedToTastyCookiesLagrar dina cookieinställningarwww.ptj.se1 årx-ms-routing-namewww.ptj.se1 timmeFunktionella cookies   Funktionella cookies är t.ex. Vimeo och Youtube. Du måste godkänna att dessa kakor sätts för att du ska kunna se videos från dessa kanaler.NamnBeskrivningDomänUtgårYSCAnvänds av YouTube för att komma ihåg användarens inmatning och associera en användares handlingaryoutube.com	SessionStatistik-cookies   Dessa cookies tillåter oss att analysera hur webbplatsen används och hjälper oss i vårt arbete med olika anpassningar och förbättringar. Till exempel vilka sidor som besöks mest, och hur besökare tar sig runt mellan sidorna. Vi använder anonym och sammanräknad information vilket inte identifierar dig som person. Om du inte tillåter dessa cookies vet vi inte när du har besökt vår webbplats.NamnBeskrivningDomänUtgår___vizzitVizzits cookie innehåller bara en unik, slumpmässig serie tecken. Vizzit använder denna teckenserie för att avgöra om webbläsaren har besökt webbplatsen förut, och för att samla in statistik över hur besökare navigerar på webbplatsen.www.ptj.se1 år_gaSätts för att för att kunna särskilja unika användare. Ett slumpmässigt genererat nummer som id..ptj.se2 år_ga_...Sätts för att hålla koll på användarens session..ptj.se2 årSpara dina inställningar@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  .tc-modal td:nth-of-type(1):before { content: "Namn"; }
+  .tc-modal td:nth-of-type(2):before { content: "Beskrivning"; }
+  .tc-modal td:nth-of-type(3):before { content: "Domän"; }
+  .tc-modal td:nth-of-type(4):before { content: "Utgår"; }
+}
+    
+    
+        Tillgänglighetsmeny
+        
+            Hoppa till innehållet på sidan
+        
+    
+    
+
+
+
+
+
+
+                //<![CDATA[ 
+                (function () { new epi.QuickNavigator({"menuItems":{"dashboard":{"caption":"Dashboard","url":"/episerver","javascript":null,"enabledScript":"true","imageUrl":null},"editMode":{"caption":"CMS-redigering","url":"/episerver/CMS/?language=sv#context=epi.cms.contentdata:///146845","javascript":null,"enabledScript":"true","imageUrl":null}},"menuTitle":"Episerver","defaultUrl":"/episerver/CMS/?language=sv#context=epi.cms.contentdata:///146845"}); }()); 
+                //]]>
+
+
+
+
+    
+        
+
+
+
+    
+        
+        
+            
+            
+                
+                    
+                        
+                        
+                        
+                    
+                
+                
+                    
+                            
+                    
+                
+
+            
+        
+
+        
+        
+            
+                
+                    
+                    
+                
+            
+        
+        
+    
+
+        
+
+
+
+
+
+
+    
+        Huvudmeny
+        
+            
+                
+                    
+
+
+                
+                
+                    
+                                
+                                    
+                                    
+                                
+                    
+                
+            
+        
+    
+
+
+    
+
+
+
+
+    
+
+
+
+    
+        
+            
+                
+            
+        
+        
+            
+                
+                                            Vaccination i Bjärred
+                                    
+                
+                    
+I Bjärred – där Långa bryggan sträcker sig ut i Öresund och morgondoppen vid hamnen är en självklarhet – vill du inte missa sommarkvällarna eller kyliga dopp i gryningen, och med rätt vaccination undviker du oväntade sjukdagar.
+
+
+
+
+Utsida
+
+
+Pensionärer får 10 % rabatt på alla vaccinationer och studenter med Mecenat-/Alumnikort 15 %. Kavla upp ärmen för din nästa vaccination – vi finns nära hemmet och alltid med omsorg i fokus.
+
+  
+Ordinarie Pensionär – 10 % Student – 15 %
+
+
+
+
+Vaccination
+Pris/dosOrdinarie
+Pris/dosPensionär
+Pris/dosStudent
+
+
+
+
+Bältros
+2 550 kr
+2 295 kr
+2 168 kr
+
+
+Hep A vuxen
+550 kr
+495 kr
+468 kr
+
+
+Hep A barn
+450 kr
+405 kr
+382 kr
+
+
+Hep B vuxen
+500 kr
+450 kr
+425 kr
+
+
+Hep B barn
+430 kr
+387 kr
+366 kr
+
+
+Hep AB vuxen
+700 kr
+630 kr
+595 kr
+
+
+Hep AB barn
+540 kr
+486 kr
+459 kr
+
+
+HPV
+2 340 kr
+2 106 kr
+1 989 kr
+
+
+Influensa (vid säsong)
+420 kr
+378 kr
+357 kr
+
+
+Grundskydd
+520 kr
+468 kr
+442 kr
+
+
+TBE vuxen
+460 kr
+414 kr
+391 kr
+
+
+TBE barn
+410 kr
+369 kr
+348 kr
+
+
+Vattkoppor
+860 kr
+774 kr
+731 kr
+
+
+
+Varför välja oss?
+Upplev vår mobila vaccinationsklinik – en specialbyggd vaccinationsbuss med brits, handtvättstation och fullgod hygien. I en trygg, familjär och professionell atmosfär ger våra erfarna sjuksköterskor och läkare personlig rådgivning och hjälper dig välja rätt vaccination enligt Folkhälsomyndighetens rekommendationer. Med drop-in-vaccination och korta väntetider slipper du stress och kan fokusera på ditt välbefinnande. Dessutom erbjuder vi hälsokontroller med blodtrycks-, järn- och blodsockermätning i en avslappnad miljö.
+
+
+
+Insida - 1
+
+
+
+Tillgängliga vacciner i Bjärred
+TBE-vaccin
+Skydda dig mot TBE – en fästingburen hjärninflammation som blir allt vanligare i Sverige. Vi erbjuder TBE-vaccination i Bjärred för både barn och vuxna. Kom ihåg att flera doser krävs för ett fullgott skydd.
+Grundskyddsvaccin (Stelkramp/Difteri/Kikhosta)
+Dags att uppdatera grundskyddet? I vår buss i Bjärred kan du enkelt vaccinera dig mot stelkramp, difteri och kikhosta. Folkhälsomyndigheten rekommenderar alla att fylla på sitt grundskydd då vi har stelkramp i jorden i Sverige.
+Bältros
+Vårt bältrosvaccin skyddar mot Bältros (herpes zoster), en smärtsam återaktivering av vattkoppsvirus som drabbar ungefär en av tre vuxna. Vaccinet rekommenderas framför allt för vuxna över 50 år och ges i två doser med 2–6 månaders intervall. Studier visar över 90 % skyddseffekt mot svår bältros och postherpetisk neuralgi. Vanliga biverkningar är mild rodnad, svullnad och ömhet vid injektionsstället, eventuellt feber och huvudvärk.
+Vattkoppsvaccin
+Vattkoppsvaccinet (varicellavaccin) ger ett effektivt skydd mot vattkoppor och rekommenderas särskilt för ovaccinerade barn, ungdomar och vuxna som aldrig haft sjukdomen. Vaccinationen ges vanligtvis i två doser för att uppnå ett starkt och långvarigt immunförsvar. Nu erbjuder Vaccin- och hälsobussen vattkoppsvaccination i Bjärred, vilket gör det enkelt och smidigt att få sitt skydd nära hemmet. Ta chansen att skydda dig och din familj mot vattkoppor utan att behöva göra en lång resa.
+Hepatitvaccin
+Vaccin- och Hälsobussen i Bjärred erbjuder hepatit A-vaccin (två doser med några månaders mellanrum), hepatit B-vaccin (tre doser över sex månader) samt ett kombinerat A- och B-vaccin (tre doser inom ett år) – allt på ett och samma ställe för ett heltäckande skydd mot båda virusen.
+HPV-vaccin
+Vi erbjuder HPV-vaccination (Gardasil 9) – rekommenderat för flickor och pojkar från 9 år för att förebygga livmoderhalscancer, kondylom och andra HPV-relaterade infektioner. Doserna ges enligt nationellt barnvaccinationsprogram (2 doser vid start före 15 års ålder). Alla vuxna ska ta 3 doser, även om Gardasil har tagits tidigare.
+Influensavaccin
+Under influensasäsongen erbjuder vi säsongsanpassade influensavaccin i Bjärred. Rekommenderas särskilt för äldre, gravida och personer i riskgrupp, men även friska vuxna kan ha nytta av att vaccinera sig. Förutom att skydda sig själv, bidrar vaccinationen även till att minska smittspridningen i samhället, särskilt till dem som är mest utsatta.
+Hälsokontroll
+Hos oss kan du alltid genomföra en enklare hälsokontroll där du får reda på blodtrycket, järnvärdet och blodsockret. Det tar bara några minuter och du får svaret direkt. Välkommen in till oss!
+
+
+                
+            
+                
+                    
+                            Hitta vår Vaccin- och Hälsobuss i Bjärred
+
+
+
+
+
+    
+Hitta vår Vaccin- och Hälsobuss i Bjärred:
+Coop,
+Norra Västkustvägen 2, 237 37 Bjärred
+
+
+
+Datum
+Dag
+Tid
+
+
+
+
+24 feb 2025
+Måndag
+14:30–18:30
+
+
+17 mar 2025
+Måndag
+14:30–18:30
+
+
+28 apr 2025
+Måndag
+14:30–18:30
+
+
+19 maj 2025
+Måndag
+14:30–18:30
+
+
+30 maj 2025
+Fredag
+14:30–18:30
+
+
+30 jun 2025
+Måndag
+14:30–18:30
+
+
+21 jul 2025
+Måndag
+14:30–18:30
+
+
+11 aug 2025
+Måndag
+14:30–18:30
+
+
+1 sep 2025
+Måndag
+14:30–18:30
+
+
+22 sep 2025
+Måndag
+14:30–18:30
+
+
+13 okt 2025
+Måndag
+14:30–18:30
+
+
+
+
+
+    FAQ
+
+
+
+
+
+    
+ 
+
+
+Vanliga frågor om vaccination i Bjärred 
+
+Behöver jag boka tid eller kan jag komma på drop‑in?
+
+Hos oss är det alltid drop-in, vilket innebär att du kan komma när det passar dig bäst. Tack vare våra effektiva rutiner i Bjärred är väntetiderna korta, så att du snabbt kan få din vaccination och återgå till din dag.
+
+
+Vilka betalningsalternativ accepterar ni?
+
+Vi tar emot kort (Visa, Mastercard) och Swish. Kontant betalning är tyvärr inte möjlig.
+
+
+Hur lång tid tar ett besök i bussen?
+
+Själva vaccinationen tar bara några minuter. Räkna totalt cirka 10 minuter inklusive registrering och vaccinering. Vi strävar alltid efter minimala väntetider och jobbar så fort vi kan, men under vissa rusningstider kan det vara många som vill vaccinera sig och då kan man få räkna med en något längre väntan.
+
+
+Kan barn vaccineras i bussen?
+
+Ja, på Vaccin- och Hälsobussen är barnvaccinationer en självklarhet – vi är vana vid att ta hand om de yngsta på ett tryggt vis. Minderåriga måste komma i sällskap med vårdnadshavare eller ha skriftligt samtycke.
+
+
+Behöver jag ta med vaccinationskort / journal?
+
+Har du ett vaccinationskort får du gärna ta med det. Saknar du dokumentation kan vår personal oftast hitta tidigare doser i vårt journalsystem eller ge råd om ett lämpligt schema.
+
+
+
+
+
+
+                    
+                
+        
+        
+            
+                
+            
+        
+    
+
+
+
+
+
+
+
+    Snabblänkar
+    
+        
+            
+            
+            
+        
+    
+
+    
+            
+                
+                        
+Tillgänglighet
+                
+            
+            
+                
+                        
+Personuppgifter
+                
+            
+            
+                
+                        
+Synpunkter på vården
+                
+            
+    
+
+
+
+
+
+    Sidfot
+    
+        
+            
+                    Öppettider Varvet i Malmö
+
+
+
+
+
+    
+Vaccincenter Varvet i Malmö
+Telefon
+040-655 66 44
+E-post
+vaccincenter.varvet@ptj.se
+Adress
+Stora Varvsgatan 27211 10 Malmö
+
+
+    Öppettider Kung Oskar
+
+
+
+
+
+    
+Vaccincenter Varvet i Lund
+Telefon
+046-271 66 44
+E-post
+vaccincenter.varvet@ptj.se
+Adress
+Kung Oskars väg 19222 35 Lund
+
+
+    Karta Varvet
+
+
+
+
+
+    
+
+
+
+    Karta Vaccincenter i Lund
+
+
+
+
+
+    
+
+
+
+    Logga PTJ
+
+
+
+
+
+    
+  
+
+
+
+            
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    $vizzit.cookie.set();
+
+
+// Intersection Observer for fade-in effect
+document.addEventListener('DOMContentLoaded', function() {
+    const images = document.querySelectorAll('.fade-in');
+
+    if ('IntersectionObserver' in window) {
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        images.forEach(img => imageObserver.observe(img));
+    } else {
+        // Fallback for older browsers
+        images.forEach(img => {
+            img.style.opacity = '1';
+        });
+    }
+});
+
+/* === 2. Smooth-scroll + fokusfälla för interna länkar === */
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        const id = this.getAttribute('href').slice(1);
+        const target = document.getElementById(id);
+        if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            setTimeout(() => {
+                target.setAttribute('tabindex', '-1');
+                target.focus({ preventScroll: true });
+            }, 400);
+        }
+    });
+});
+
+
+
+
+    
+
+
+
+    ×
+        
+            
+                
+                Drag & drop here to download
+                图片将完成下载
+            
+            AIX Downloader
+        
+    Episerver                                                                       DashboardCMS-redigering                     /* ==UserStyle==
+@name           ?
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+/* --- Bildsektion (Image Section) --- */
+.figure-center {
+	text-align: center;
+}
+.figure-center .figure-img {
+	width: 70%;
+	height: auto;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.figure-caption {
+	color: #1f7ea4;
+	font-size: 14px;
+}
+
+/* --- Rubriker och stycken (Headings and Paragraphs) --- */
+.heading-highlight {
+	color: #1f7ea4;
+	font-size: 22px;
+}
+.paragraph-highlight {
+	color: #1f7ea4;
+	font-size: 20px;
+}
+
+/* --- Booking section --- */
+.book-title {
+	text-align: center;
+	font-size: 22px;
+	color: #1F7EA4;
+	font-family: 'Filson Pro Book', sans-serif;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+.book-intro {
+	color: #1F7EA4;
+	font-size: 18px;
+	text-align: center;
+	max-width: 600px;
+	margin: 0 auto 16px;
+}
+.book-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 16px;
+	margin-top: 24px;
+	border-top: none;
+	padding-top: 24px;
+}
+.book-location {
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	color: #1F7EA4;
+	font-weight: 600;
+}
+
+/* --- Updated action buttons to match vaccine button style --- */
+.btn-primary,
+.btn-secondary {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 14px 16px;
+	font-size: 21px;
+	font-weight: 600;
+	font-family: 'Filson Pro Book', sans-serif;
+	text-decoration: none;
+	border-radius: 12px;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6),
+	0 5px 10px rgba(0, 0, 0, 0.08),
+	0 9px 18px rgba(0, 0, 0, 0.04);
+	transition: transform 0.2s ease,
+	box-shadow 0.2s ease,
+	background-color 0.3s ease;
+}
+.btn-primary {
+	background-color: #1F7EA4 !important;
+	color: #FFF !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+	transform: translateY(-3px) scale(1.03);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7),
+	0 7px 13px rgba(0, 0, 0, 0.12),
+	0 13px 26px rgba(0, 0, 0, 0.06);
+	background-color: #185F7D !important;
+}
+.btn-secondary {
+	background-color: #E0F3FA;
+	color: #1F7EA4;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+	transform: translateY(-3px) scale(1.03);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7),
+	0 7px 13px rgba(0, 0, 0, 0.12),
+	0 13px 26px rgba(0, 0, 0, 0.06);
+	background-color: #C1E7F3;
+}
+
+/* --- Footer Overrides --- */
+/*
+ * BUG-RISK: This rule uses a "magic number" (-214px) for layout.
+ * This is brittle and will break if the height of the footer content changes.
+ * RECOMMENDATION: Use modern CSS techniques (e.g., Grid, transform) for more robust layout control.
+*/
+.row.row1 {
+	position: relative;
+	z-index: 2;
+	margin-bottom: -214px !important;
+	padding: 0 !important;
+}
+
+/*
+ * BUG-RISK: These attribute selectors are fragile and depend on specific inline style attributes.
+ * If the inline styles are changed, these CSS rules will silently fail.
+ * RECOMMENDATION: Add a dedicated class to each element in the HTML (e.g., class="footer-logo")
+ * and target the class in CSS for a stable, maintainable solution.
+*/
+div[style *= "text-align: center; margin: 24px"] {
+	margin: 10px 0 !important;
+}
+div[style *= "border-radius: 12px; overflow: hidden; margin: 24px"] {
+	margin: 10px 0 !important;
+}
+.footer h4[style *= "color: #1f7ea4"] {
+	margin-top: 8px !important;
+}
+
+/*
+ * BUG-RISK: The widespread use of `!important` undermines CSS specificity and makes future maintenance difficult.
+ * RECOMMENDATION: Avoid `!important`. Instead, increase the specificity of your selectors to override
+ * base styles naturally (e.g., 'footer.footer .row' instead of just '.footer .row').
+*/
+.footer .block-container {
+	margin-bottom: 0 !important;
+}
+.footer .textblock {
+	margin-bottom: 0 !important;
+}
+.footer .row {
+	margin-bottom: 0 !important;
+	margin-top: 0 !important;
+	/* Remove top margin */
+}
+div.row.row6,
+div.row.row5,
+div.row.row4,
+div.row.row3,
+div.row.row2,
+div.row.row1 {
+	margin-top: 0 !important;
+}
+.footer .container-fluid {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+/* Footer background color */
+.footer {
+	background-color: #eff9ff;
+}
+
+:root {
+	--blue-primary: #012363 !important;
+	--blue-dark: #003366 !important;
+	--bg-service: #46b5ff !important;
+	--bg-footer: #eff9ff !important;
+	--text-white: #ffffff !important;
+	--font-family-base: filsonpro, sans-serif !important;
+	--shadow-sm: 0 3px 6px rgba(0, 0, 0, 0.1) !important;
+	--shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+	--shadow-lg: 0 8px 20px rgba(0, 0, 0, 0.12) !important;
+	--border-radius: 8px !important
+}
+html {
+	scroll-behavior: smooth!important;
+	-webkit-text-size-adjust: 100%!important;
+	-ms-text-size-adjust: 100%!important
+}
+body {
+	font-family: filsonpro, sans-serif!important;
+	line-height: 1.4!important;
+	-webkit-font-smoothing: antialiased!important;
+	-moz-osx-font-smoothing: grayscale!important;
+	text-rendering: optimizeLegibility!important;
+	margin: 0!important;
+	padding: 0!important;
+	color: var(--blue-dark)!important
+}
+a {
+	color: var(--blue-primary)!important;
+	transition: color 0.2s ease!important
+}
+.fade-in {
+	opacity: 0!important;
+	transform: translateY(10px)!important;
+	transition: opacity 0.6s ease, transform 0.6s ease!important
+}
+.fade-in.visible {
+	opacity: 1!important;
+	transform: none!important
+}
+.navigation__logo {
+	-webkit-backdrop-filter: blur(10px)!important;
+	backdrop-filter: blur(10px)!important
+}
+html {
+	-webkit-scroll-behavior: smooth!important;
+	-moz-scroll-behavior: smooth!important;
+	-ms-scroll-behavior: smooth!important;
+	scroll-behavior: smooth!important
+}
+p,
+.contact p,
+.clinic-content h3 {
+	-webkit-hyphens: auto!important;
+	-moz-hyphens: auto!important;
+	-ms-hyphens: auto!important;
+	hyphens: auto!important
+}
+.info-row {
+	-webkit-column-gap: 15px!important;
+	-moz-column-gap: 15px!important;
+	column-gap: 15px!important;
+	margin-top: 18px!important
+}
+.image-wrapper img,
+.service-icon {
+	-o-object-fit: cover!important;
+	object-fit: cover!important
+}
+.image-wrapper {
+	aspect-ratio: 1 / 1!important
+}
+@supports not (aspect-ratio:1 / 1) {
+	.image-wrapper::before {
+		content: ""!important;
+		display: block!important;
+		padding-bottom: 100%!important
+	}
+}
+.clinic-card:hover,
+.service-item:hover,
+.buttons a:hover {
+	pointer-events: auto!important
+}
+* {
+	font-family: filsonpro, sans-serif!important
+}
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+	scrollbar-gutter: auto
+}
+.clinic-cards,
+.clinic-content,
+.info-row,
+.contact,
+.hours,
+.service-item,
+.icon-container {
+	-webkit-box-orient: vertical!important;
+	-webkit-box-direction: normal!important;
+	-moz-box-orient: vertical!important;
+	-moz-box-direction: normal!important;
+	-ms-flex-direction: column!important;
+	-webkit-flex-direction: column!important;
+	flex-direction: column!important
+}
+.book-buttons,
+.row.no-gutters {
+	-webkit-flex-wrap: wrap!important;
+	-ms-flex-wrap: wrap!important;
+	flex-wrap: wrap!important
+}
+.book-buttons,
+.buttons,
+.hours ul,
+nav.footer__link-nav ul#footer__links {
+	-webkit-box-pack: center!important;
+	-moz-box-pack: center!important;
+	-ms-flex-pack: center!important;
+	-webkit-justify-content: center!important;
+	justify-content: center!important
+}
+.buttons a,
+.hours,
+.service-item,
+.icon-container {
+	-webkit-box-align: center!important;
+	-moz-box-align: center!important;
+	-ms-flex-align: center!important;
+	-webkit-align-items: center!important;
+	align-items: center!important
+}
+.clinic-content,
+.contact {
+	-webkit-box-flex: 1!important;
+	-moz-box-flex: 1!important;
+	-webkit-flex: 1!important;
+	-ms-flex: 1!important;
+	flex: 1!important
+}
+.fade-in,
+.clinic-card:hover,
+.service-item:hover,
+.btn-primary:hover,
+.btn-secondary:hover {
+	-webkit-transform: translateY(-4px)!important;
+	-moz-transform: translateY(-4px)!important;
+	-ms-transform: translateY(-4px)!important;
+	-o-transform: translateY(-4px)!important;
+	transform: translateY(-4px)!important
+}
+.fade-in,
+.clinic-card,
+.service-item,
+.buttons a,
+footer.footer a,
+a {
+	-webkit-transition: all 0.2s ease!important;
+	-moz-transition: all 0.2s ease!important;
+	-ms-transition: all 0.2s ease!important;
+	-o-transition: all 0.2s ease!important;
+	transition: all 0.2s ease!important
+}
+.clinic-card,
+.service-item,
+.btn-primary,
+.buttons a {
+	-webkit-box-shadow: 0 4px 12px rgb(0 0 0 / .08)!important;
+	-moz-box-shadow: 0 4px 12px rgb(0 0 0 / .08)!important;
+	box-shadow: 0 4px 12px rgb(0 0 0 / .08)!important
+}
+.clinic-card,
+.service-grid,
+.service-item,
+.buttons a {
+	-webkit-border-radius: 8px!important;
+	-moz-border-radius: 8px!important;
+	border-radius: 8px!important
+}
+.service-icon {
+	-webkit-filter: brightness(0) saturate(100%) invert(18%) sepia(80%) saturate(2152%) hue-rotate(184deg) brightness(40%) contrast(102%)!important;
+	-moz-filter: brightness(0) saturate(100%) invert(18%) sepia(80%) saturate(2152%) hue-rotate(184deg) brightness(40%) contrast(102%)!important;
+	-ms-filter: brightness(0) saturate(100%) invert(18%) sepia(80%) saturate(2152%) hue-rotate(184deg) brightness(40%) contrast(102%)!important;
+	-o-filter: brightness(0) saturate(100%) invert(18%) sepia(80%) saturate(2152%) hue-rotate(184deg) brightness(40%) contrast(102%)!important;
+	filter: brightness(0) saturate(100%) invert(18%) sepia(80%) saturate(2152%) hue-rotate(184deg) brightness(40%) contrast(102%)!important
+}
+.container {
+	-webkit-overflow-scrolling: touch!important
+}
+button,
+input,
+select,
+textarea {
+	-webkit-appearance: none!important;
+	-moz-appearance: none!important;
+	appearance: none!important
+}
+.hours h4,
+.service-title,
+.clinic-content h3 {
+	-webkit-user-select: none!important;
+	-moz-user-select: none!important;
+	-ms-user-select: none!important;
+	user-select: none!important
+}
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
+	-webkit-font-feature-settings: normal!important;
+	-moz-font-feature-settings: normal!important;
+	font-feature-settings: normal!important
+}
+.vaccine-intro {
+	color: #1F7EA4;
+	font-size: 18px;
+	margin-bottom: 1em
+}
+.section-title {
+	text-align: center;
+	font-size: 28px;
+	color: #000;
+	margin-bottom: 16px
+}
+.vaccine-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 16px;
+	margin-bottom: 32px
+}
+.vaccine-grid-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 16px;
+	border-radius: 12px;
+	text-align: center;
+	text-decoration: none;
+	background: linear-gradient(145deg, #58A8BF 0%, #5CB2D5 100%);
+	box-shadow: inset 0 1px 0 rgb(255 255 255 / .6), 0 5px 10px rgb(0 0 0 / .08), 0 9px 18px rgb(0 0 0 / .04);
+	transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+	font: 500 18px 'Filson Pro Book', sans-serif!important;
+	color: #000!important
+}
+.vaccine-grid-item strong,
+.vaccine-grid-item .grid-item-subtext {
+	color: #000!important
+}
+.vaccine-grid-item .grid-item-subtext {
+	display: block;
+	font-size: 12px;
+	margin-top: .25em
+}
+.vaccine-grid-item:hover,
+.vaccine-grid-item:focus {
+	transform: translateY(-3px) scale(1.03);
+	background: linear-gradient(145deg, #69C4E5 0%, #78D3F2 100%);
+	box-shadow: inset 0 1px 0 rgb(255 255 255 / .7), 0 7px 13px rgb(0 0 0 / .12), 0 13px 26px rgb(0 0 0 / .06)
+}
+.book-title {
+	text-align: center;
+	font-size: 22px;
+	color: #1F7EA4;
+	font-weight: 600;
+	margin-bottom: 16px
+}
+.book-intro {
+	text-align: center;
+	color: #1F7EA4;
+	font-size: 18px;
+	max-width: 600px;
+	margin: 0 auto 16px
+}
+.book-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 16px;
+	margin-top: 24px;
+	padding-top: 24px
+}
+.book-location {
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	color: #1F7EA4;
+	font-weight: 600
+}
+.btn-primary,
+.btn-secondary {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 14px 16px;
+	font-size: 21px;
+	font-weight: 600;
+	text-decoration: none;
+	border-radius: 12px;
+	box-shadow: inset 0 1px 0 rgb(255 255 255 / .6), 0 5px 10px rgb(0 0 0 / .08), 0 9px 18px rgb(0 0 0 / .04);
+	transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease
+}
+.btn-primary {
+	background-color: #1F7EA4;
+	color: #fff!important
+}
+.btn-primary:hover,
+.btn-primary:focus {
+	transform: translateY(-3px) scale(1.03);
+	background-color: #185F7D
+}
+.btn-secondary {
+	background-color: #E0F3FA;
+	color: #1F7EA4!important
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+	transform: translateY(-3px) scale(1.03);
+	background-color: #C1E7F3
+}
+.faq-section {
+	margin-top: 12px
+}
+.faq-item {
+	margin-bottom: 32px
+}
+.faq-question {
+	font-size: 20px;
+	color: #1F7EA4;
+	margin-bottom: 8px
+}
+.faq-answer {
+	color: #1F7EA4;
+	font-size: 17px;
+	line-height: 1.5
+}
+.faq-answer a {
+	color: #1F7EA4;
+	text-decoration: underline
+}
+@media print {
+	.map-embed-container {
+		box-shadow: none;
+		border: 1px solid #ddd;
+		page-break-inside: avoid
+	}
+}
+.button-container {
+	display: flex!important;
+	align-items: center!important;
+	justify-content: flex-start!important;
+	width: 100%!important;
+	margin-top: -6px!important;
+	margin-left: 20%!important;
+	margin-right: 20%!important
+}
+footer.footer {
+	font-family: filsonpro, sans-serif!important;
+	background-color: #eff9ff!important;
+	color: #012363!important;
+	padding: 24px 16px!important;
+	width: 100%;
+	box-sizing: border-box
+}
+.footer .container-fluid {
+	padding-top: 10px!important;
+	padding-bottom: 10px!important
+}
+.row.row1 {
+	position: relative;
+	z-index: 2;
+	margin-bottom: -214px!important;
+	padding: 0!important
+}
+div.row.row6,
+div.row.row5,
+div.row.row4,
+div.row.row3,
+div.row.row2,
+div.row.row1 {
+	margin-top: 0!important
+}
+.footer .block-container,
+.footer .textblock,
+.footer .row {
+	margin-bottom: 0 !important;
+	margin-top: 0 !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+footer.footer h4,
+footer.footer h5 {
+	font-family: filsonpro, sans-serif!important;
+	color: #012363!important;
+	margin-top: 1em!important;
+	margin-bottom: 0.5em!important;
+	line-height: 1.3!important
+}
+footer.footer h4 {
+	font-size: 18px!important;
+	font-weight: 600!important;
+	margin-top: 0!important
+}
+footer.footer h5 {
+	font-size: 16px!important;
+	font-weight: 500!important
+}
+.footer h4[style *= "color: #1f7ea4"] {
+	margin-top: 8px!important
+}
+footer.footer p {
+	font-family: filsonpro, sans-serif!important;
+	font-size: 14px!important;
+	color: #003366!important;
+	line-height: 1.6!important;
+	margin-top: 0!important;
+	margin-bottom: 10px!important
+}
+footer.footer p:last-child,
+footer.footer .textblock__body > p:last-of-type {
+	margin-bottom: 0!important
+}
+footer.footer a {
+	font-family: filsonpro, sans-serif!important;
+	color: var(--clr-body-text)!important;
+	text-decoration: underline!important;
+	font-weight: normal!important
+}
+footer.footer a:hover {
+	color: var(--clr-brand-500)!important;
+	text-decoration: none!important
+}
+footer.footer p a:not([href ^= "tel:"]):not([href ^= "mailto:"]) {
+	font-family: filsonpro, sans-serif!important;
+	color: #044999!important;
+	text-decoration: underline!important;
+	font-size: inherit!important;
+	font-weight: normal!important
+}
+footer.footer p a:not([href ^= "tel:"]):not([href ^= "mailto:"]):hover {
+	text-decoration: none!important
+}
+footer.footer a[href ^= "tel:"],
+footer.footer a[href ^= "mailto:"] {
+	font-family: filsonpro, sans-serif!important;
+	color: #0066CC!important;
+	text-decoration: underline!important;
+	font-size: inherit!important
+}
+footer.footer a[href ^= "tel:"]:hover,
+footer.footer a[href ^= "mailto:"]:hover {
+	text-decoration: none!important;
+	color: #004c99!important
+}
+footer.footer .block.textblock {
+	margin-bottom: 20px!important
+}
+footer.footer .block.textblock:last-of-type {
+	margin-bottom: 0!important
+}
+footer.footer .block.textblock,
+footer.footer .textblock__body {
+	background-color: transparent!important
+}
+footer.footer .textblock__body > div[style *= "width"][style *= "height"][style *= "border-radius"] {
+	margin-left: auto!important;
+	margin-right: auto!important;
+	margin-top: 10px!important;
+	margin-bottom: 10px!important
+}
+footer.footer .textblock__body > div[style *= "width"][style *= "height"][style *= "border-radius"] iframe {
+	display: block!important;
+	margin-left: auto!important;
+	margin-right: auto!important
+}
+div[style *= "text-align: center; margin: 24px"] {
+	margin: 0!important
+}
+nav.footer__link-nav {
+	background-color: #1f7ea4!important;
+	padding-top: 15px!important;
+	padding-bottom: 15px!important;
+	width: 100%!important;
+	box-sizing: border-box;
+	font-family: filsonpro, sans-serif!important
+}
+nav.footer__link-nav ul#footer__links {
+	list-style: none!important;
+	padding-left: 0!important;
+	margin-top: 0!important;
+	margin-bottom: 0!important;
+	justify-content: center!important
+}
+nav.footer__link-nav ul#footer__links > li.col {
+	flex-grow: 0!important;
+	flex-basis: auto!important;
+	padding-top: 5px!important;
+	padding-bottom: 5px!important;
+	text-align: center
+}
+nav.footer__link-nav a.footer__link {
+	font-family: filsonpro, sans-serif!important;
+	color: #ffffff!important;
+	text-decoration: none!important
+}
+nav.footer__link-nav a.footer__link:hover {
+	text-decoration: underline!important
+}
+nav.footer__link-nav button#footer__links-toggle-button {
+	background: transparent!important;
+	border: 1px solid #ffffff!important;
+	padding: 8px 10px!important;
+	margin-left: 15px;
+	margin-bottom: 10px!important;
+	cursor: pointer!important
+}
+nav.footer__link-nav button#footer__links-toggle-button .hamburger-menu__line {
+	background-color: #ffffff!important;
+	display: block!important;
+	height: 2px!important;
+	width: 22px!important;
+	margin: 4px auto!important
+}
+@media (max-width:991.98px) {
+	nav.footer__link-nav ul#footer__links.open,
+	nav.footer__link-nav ul#footer__links:target {
+		flex-direction: column!important;
+		align-items: center!important
+	}
+	nav.footer__link-nav ul#footer__links.open > li.col,
+	nav.footer__link-nav ul#footer__links:target > li.col {
+		width: 100%!important;
+		margin-bottom: 5px!important
+	}
+	nav.footer__link-nav ul#footer__links.open > li.col:last-child,
+	nav.footer__link-nav ul#footer__links:target > li.col:last-child {
+		margin-bottom: 0!important
+	}
+}
+p,
+div {
+	font-family: var(--ff-primary)!important;
+	color: var(--clr-brand-100)!important;
+	font-size: var(--fs-text);
+	line-height: var(--lh-text)
+}
+.navigation__item--has-mega-menu .navigation__item-category .navigation__item-chevron--collapsed,
+.navigation__item--has-mega-menu .navigation__item-category .navigation__item-chevron--expanded {
+	font-size: .75rem;
+	margin-left: .5rem
+}
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-webkit-font-feature-settings: normal;
+	font-feature-settings: normal;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-rendering: auto
+}
+.fa,
+.fas,
+.far,
+.fal,
+.fad,
+.fab {
+	display: inline-block!important;
+	font-style: normal!important;
+	font-variant: normal!important;
+	text-rendering: auto!important;
+	line-height: 1!important;
+	-webkit-font-smoothing: antialiased!important;
+	-moz-osx-font-smoothing: grayscale!important;
+	font-size: 1em!important;
+	font-family: Font Awesome\ 5 Pro!important
+}
+@media (max-width:575.98px) {
+	.textblock .contact p,
+	.textblock .contact h4,
+	.textblock .contact h5 {
+		text-align: left!important
+	}
+	.contact p {
+		text-align: left!important;
+		align-self: flex-start!important;
+		width: 100%!important;
+		margin-bottom: 0!important;
+		display: block!important
+	}
+}
+.header {
+	display: flex!important;
+	flex-direction: column!important;
+	align-items: stretch!important;
+	height: auto!important
+}
+.navigation {
+	display: flex!important;
+	flex-direction: column!important;
+	width: 100%!important;
+	height: auto!important;
+	padding: 0!important;
+	margin: 0 auto!important
+}
+.navigation__logo {
+	order: -1!important;
+	width: 100%!important;
+	display: flex!important;
+	justify-content: flex-end!important;
+	padding-top: 30px!important;
+	padding-right: 16px!important;
+	padding-bottom: 25px!important;
+	padding-left: 16px!important;
+	margin-left: 30px!important;
+	box-sizing: border-box!important;
+	height: auto!important;
+	line-height: normal!important;
+	margin-bottom: 0 !important;
+	margin-top: 0 !important;
+}
+.navigation__logo > a,
+.navigation__logo > img,
+.navigation__logo > svg {
+	margin-right: auto !important;
+	margin-left: 5.28rem !important
+}
+.navigation__left--menu,
+nav.navigation__item--has-mega-menu .navigation__item-category,
+.header-navigation-menu {
+	order: 2!important;
+	display: flex!important;
+	flex-direction: row!important;
+	justify-content: space-between!important;
+	width: 100%!important;
+	padding: 0 0!important;
+	margin: 0!important;
+	list-style: none!important;
+	height: 60px!important;
+	flex-wrap: nowrap
+}
+.navigation__item {
+	flex-grow: 1!important;
+	flex-basis: 0!important;
+	text-align: center!important;
+	padding: 0 0.5rem!important;
+	display: flex!important;
+	align-items: center!important;
+	justify-content: center!important;
+	border-left: none!important;
+	border-right: none!important
+}
+.header .float-right,
+.header .pull-right {
+	float: none!important
+}
+.header [class *= "position-absolute"] {
+	position: relative!important
+}
+.clinic-card:nth-child(3) .hours {
+	top: 46%!important
+}
+.map-embed-container {
+	--map-radius: 12px;
+	--map-shadow: 0 4px 12px rgba(1, 35, 99, 0.1);
+	--map-hover-shadow: 0 7px 28px rgba(1, 35, 99, 0.18);
+	--map-focus-outline-color: #007bff;
+	--map-focus-shadow: 0 0 0 3px hsla(0, 0%, 100%, .7), 0 0 0 5px var(--map-focus-outline-color), var(--map-hover-shadow);
+	--map-max-width: 375px;
+	--map-aspect-ratio: 16/9;
+	--map-vertical-margin: 16px;
+	--map-border-width: 1px;
+	--map-border-color: rgba(1, 35, 99, 0.15);
+	--map-loading-text-color: #333;
+	--map-loading-bg-color: #f0f2f5;
+	--map-spinner-color: var(--map-focus-outline-color);
+	--map-transition-duration: 0.25s;
+	position: relative;
+	width: 100%;
+	max-width: var(--map-max-width);
+	margin-top: var(--map-vertical-margin);
+	margin-bottom: var(--map-vertical-margin);
+	margin-left: 0;
+	margin-right: auto;
+	border-radius: var(--map-radius);
+	overflow: hidden;
+	box-shadow: var(--map-shadow);
+	border: var(--map-border-width) solid var(--map-border-color);
+	aspect-ratio: var(--map-aspect-ratio);
+	background-color: var(--map-loading-bg-color);
+	transition: transform var(--map-transition-duration) ease, box-shadow var(--map-transition-duration) ease, border-color var(--map-transition-duration) ease
+}
+.map-embed-container:hover {
+	transform: translateY(-4px);
+	box-shadow: var(--map-hover-shadow);
+	border-color: var(--map-spinner-color)
+}
+.map-embed-container:focus-visible {
+	transform: translateY(-4px);
+	box-shadow: var(--map-focus-shadow);
+	border-color: var(--map-spinner-color);
+	outline: none
+}
+.map-embed-frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	display: block;
+	z-index: 1
+}
+.map-embed-container::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 36px;
+	height: 36px;
+	margin-top: -28px;
+	margin-left: -18px;
+	border: 4px solid rgb(0 0 0 / .1);
+	border-left-color: var(--map-spinner-color);
+	border-radius: 50%;
+	animation: map-spinner-rotation 0.8s linear infinite;
+	z-index: 0
+}
+.map-embed-container::after {
+	content: "Laddar karta...";
+	position: absolute;
+	top: calc(50% + 10px);
+	left: 50%;
+	transform: translateX(-50%);
+	color: var(--map-loading-text-color);
+	font-size: 13px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	z-index: 0
+}
+@keyframes map-spinner-rotation {
+	from {
+		transform: rotate(0deg)
+	}
+	to {
+		transform: rotate(360deg)
+	}
+}
+@media (max-width:576px) {
+	.map-embed-container {
+		--map-max-width: 100%;
+		margin-top: 0;
+		margin-bottom: 0;
+		border-radius: 0;
+		--map-border-width: 0px
+	}
+	.map-embed-container::before {
+		margin-top: -26px
+	}
+	.map-embed-container::after {
+		font-size: 12px;
+		top: calc(50% + 8px)
+	}
+}
+@media print {
+	.map-embed-container {
+		box-shadow: none!important;
+		border: 1px solid #bbb!important;
+		page-break-inside: avoid;
+		background-color: #fff!important
+	}
+	.map-embed-container::before,
+	.map-embed-container::after {
+		display: none!important
+	}
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--blue-dark)!important
+}
+.navigation__item .navigation__item-category {
+	color: #012363!important;
+	font-weight: 500!important
+}
+.mega-menu__wrapper a.link {
+	color: #fff!important
+}
+li {
+	text-align: left!important
+}
+body.megamenu-visible .mega-container {
+	overflow-y: auto;
+	margin-top: 50px
+}
