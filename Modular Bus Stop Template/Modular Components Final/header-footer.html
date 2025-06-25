@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header & Footer Template - Praktikertjänst Vaccincenter</title>
+</head>
+<body>
+    <!-- Skip to content link for accessibility -->
+    <div id="accessibility-navigation">
+        <a href="#main-content" class="skip-link">Hoppa till innehållet på sidan</a>
+    </div>
+
+    <!-- Header -->
+    <header class="header container-fluid">
+        <nav class="navigation" role="navigation" aria-label="Huvudmeny">
+            <!-- Logo -->
+            <div class="navigation__logo">
+                <a href="/vaccincenter-varvet/" aria-label="Tillbaka till startsidan">
+                    <img src="/images/praktikertjanst-blue--webb.svg" alt="Praktikertjänst Vaccincenter Varvet" width="200" height="60">
+                </a>
+            </div>
+
+            <!-- Main Navigation -->
+            <ul class="navigation__left navigation__left--menu header-navigation-menu">
+                <li class="navigation__item navigation__item--has-mega-menu">
+                    <button class="navigation__item-category" aria-expanded="false" aria-controls="vaccin-menu">
+                        <span>Vaccin</span>
+                        <span class="navigation__item-chevron" aria-hidden="true"></span>
+                    </button>
+                    <div id="vaccin-menu" class="mega-menu__wrapper" hidden>
+                        <ul class="mega-menu__list">
+                            <li><a href="/vaccincenter-varvet/vaccin/" class="link">Alla vaccin</a></li>
+                            <li><a href="/vaccincenter-varvet/vaccin/baltrosvaccin/" class="link">Bältrosvaccin</a></li>
+                            <li><a href="/vaccincenter-varvet/vaccin/tbe-vaccin/" class="link">TBE-vaccin</a></li>
+                            <li><a href="/vaccincenter-varvet/vaccin/influensavaccin/" class="link">Influensavaccin</a></li>
+                            <li><a href="/vaccincenter-varvet/vaccin/hpv-vaccin/" class="link">HPV-vaccin</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navigation__item">
+                    <a href="/vaccincenter-varvet/reseradgivning/" class="navigation__item-category">
+                        <span>Reserådgivning</span>
+                    </a>
+                </li>
+                <li class="navigation__item navigation__item--has-mega-menu">
+                    <button class="navigation__item-category" aria-expanded="false" aria-controls="buss-menu">
+                        <span>Vaccin- & Hälsobuss</span>
+                        <span class="navigation__item-chevron" aria-hidden="true"></span>
+                    </button>
+                    <div id="buss-menu" class="mega-menu__wrapper" hidden>
+                        <ul class="mega-menu__list">
+                            <li><a href="/vaccincenter-varvet/vaccin-och-halsobuss/" class="link">Alla orter</a></li>
+                            <li><a href="/vaccincenter-varvet/vaccin-och-halsobuss/bjarred/" class="link">Bjärred</a></li>
+                            <li><a href="/vaccincenter-varvet/vaccin-och-halsobuss/lund/" class="link">Lund</a></li>
+                            <li><a href="/vaccincenter-varvet/vaccin-och-halsobuss/bastad/" class="link">Båstad</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navigation__item">
+                    <a href="/vaccincenter-varvet/infor-besok/" class="navigation__item-category">
+                        <span>Inför besök</span>
+                    </a>
+                </li>
+                <li class="navigation__item">
+                    <a href="/vaccincenter-varvet/priser/" class="navigation__item-category">
+                        <span>Priser</span>
+                    </a>
+                </li>
+                <li class="navigation__item navigation__item--has-mega-menu">
+                    <button class="navigation__item-category" aria-expanded="false" aria-controls="mottagningar-menu">
+                        <span>Mottagningar</span>
+                        <span class="navigation__item-chevron" aria-hidden="true"></span>
+                    </button>
+                    <div id="mottagningar-menu" class="mega-menu__wrapper" hidden>
+                        <ul class="mega-menu__list">
+                            <li><a href="/vaccincenter-varvet/mottagningar/" class="link">Alla mottagningar</a></li>
+                            <li><a href="/vaccincenter-varvet/mottagningar/varvet-malmo/" class="link">Varvet - Malmö</a></li>
+                            <li><a href="/vaccincenter-varvet/mottagningar/varvet-lund/" class="link">Varvet - Lund</a></li>
+                            <li><a href="/vaccincenter-varvet/mottagningar/vaccin-och-halsobussen/" class="link">Vaccin- & Hälsobussen</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content placeholder -->
+    <main id="main-content">
+        <!-- Content goes here -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <!-- Row 1: Contact Info -->
+            <div class="row row1">
+                <div class="col-md-6">
+                    <div class="block textblock">
+                        <div class="textblock__body">
+                            <h4>Vaccincenter Varvet i Malmö</h4>
+                            <h5>Telefon</h5>
+                            <p><a href="tel:040-655 66 44">040-655 66 44</a></p>
+                            <h5>E-post</h5>
+                            <p><a href="mailto:vaccincenter.varvet@ptj.se">vaccincenter.varvet@ptj.se</a></p>
+                            <h5>Adress</h5>
+                            <p>Stora Varvsgatan 27<br>211 10 Malmö</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="block textblock">
+                        <div class="textblock__body">
+                            <h4>Vaccincenter Varvet i Lund</h4>
+                            <h5>Telefon</h5>
+                            <p><a href="tel:046-271 66 44">046-271 66 44</a></p>
+                            <h5>E-post</h5>
+                            <p><a href="mailto:vaccincenter.varvet@ptj.se">vaccincenter.varvet@ptj.se</a></p>
+                            <h5>Adress</h5>
+                            <p>Kung Oskars väg 19<br>222 35 Lund</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 2: Maps -->
+            <div class="row row2">
+                <div class="col-md-6">
+                    <div class="map-embed-container" data-location="malmo">
+                        <iframe class="map-embed-frame" 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2254.123456789!2d13.0123456!3d55.6123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sVaccincenter+Varvet+Malmö!5e0!3m2!1ssv!2sse!4v1234567890"
+                                width="100%" 
+                                height="300" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy"
+                                title="Karta till Vaccincenter Varvet i Malmö">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="map-embed-container" data-location="lund">
+                        <iframe class="map-embed-frame" 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.123456789!2d13.1912345!3d55.7123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sVaccincenter+Varvet+Lund!5e0!3m2!1ssv!2sse!4v1234567890"
+                                width="100%" 
+                                height="300" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy"
+                                title="Karta till Vaccincenter Varvet i Lund">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Links -->
+            <nav class="footer__link-nav" aria-label="Sidfotslänkar">
+                <button id="footer__links-toggle-button" aria-expanded="false" aria-controls="footer__links">
+                    <span class="hamburger-menu__line"></span>
+                    <span class="hamburger-menu__line"></span>
+                    <span class="hamburger-menu__line"></span>
+                    <span class="visually-hidden">Visa/dölj sidfotslänkar</span>
+                </button>
+                <ul id="footer__links">
+                    <li class="col">
+                        <a href="/vaccincenter-varvet/tillganglighet/" class="footer__link">Tillgänglighet</a>
+                    </li>
+                    <li class="col">
+                        <a href="/vaccincenter-varvet/personuppgifter/" class="footer__link">Personuppgifter</a>
+                    </li>
+                    <li class="col">
+                        <a href="/vaccincenter-varvet/synpunkter-pa-varden/" class="footer__link">Synpunkter på vården</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Logo -->
+            <div class="footer__logo">
+                <img src="/images/praktikertjanst-blue--webb.svg" alt="Praktikertjänst" width="150" height="45">
+            </div>
+        </div>
+    </footer>
+
+    <script src="navigation.js"></script>
+</body>
+</html>
